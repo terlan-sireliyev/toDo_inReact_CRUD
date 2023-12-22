@@ -1,11 +1,4 @@
-.lineNone {
-    color: #000;
-    text-decoration: none;
-    list-style-type: none;
-    padding: 5px;
-    margin-right: 5px;
-    border: 1px solid #c4c4c4;
-}
+ 
 
 .lineNoneP {
     color: #000;
@@ -13,6 +6,9 @@
     list-style-type: none;
     padding: 5px;
     margin-right: 5px;
+    background-color: gold;
+    width: 45%;
+    text-align: left;
 }
 
 .thLine {
@@ -21,6 +17,8 @@
     list-style-type: none;
     padding: 5px;
     margin-right: 5px;
+    text-align: left;
+    width: 45%;
 }
 
 body {
@@ -104,7 +102,7 @@ input:focus {
 .todoLists ul li button:nth-child(3) {
     background-color: rgb(26, 174, 135);
     border: #c4c4c4;
-    padding: 5px 15px 5px 15px;
+    padding: 5px 8px 5px 8px;
     margin-right: 5px;
     border-radius: 5px;
     cursor: pointer;
@@ -127,6 +125,7 @@ input:focus {
 
 .todoLists ul li button:nth-child(3) {
     background-color: #1b7d37;
+    /* padding: 5px 5px 5px 5px; */
 }
 
 .errorP {
